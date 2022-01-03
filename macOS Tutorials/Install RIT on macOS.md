@@ -57,3 +57,17 @@ echo "alias RIT='wine start C:Client.application; exit 0'"
 - Step 9: Quit  `Terminal.app` by using <kbd>&#8984;</kbd>+<kbd>Q</kbd>.
 
 - Step 10: Reopen `Terminal.app` and you can now run the program by only entering `RIT`.
+
+
+# FAQ
+
+<details>
+  <summary>Common Error Messages</summary>
+  
+  - Q: I got the error message `zsh: bad CPU type in executable`  
+     A: Have you installed [Rosetta](./README.md#Part&#32;C:&#32;Install&#32;Rosetta&#32;2&#32;on&#32;M1&#32;Macs)?
+
+  - Q: I got the error message `zsh: command not found: brew`  
+     A: Have you added homebrew into PATH`? 
+     
+</details>
