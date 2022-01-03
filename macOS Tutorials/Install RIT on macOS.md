@@ -12,14 +12,7 @@ brew install --cask --no-quarantine gcenx/wine/wine-crossover
 brew install winetricks
 ```
 
-- *If you have an Intel Mac, You may skip this step and go to Step 3.*  
-
-    Step 2: (Only if you have a M1 Mac,) Install Rosetta 2 using Terminal:
-```sh
-softwareupdate --install-rosetta
-```
-
-- Step 3: Initialize wine 
+- Step 2: Initialize wine 
 ```sh 
 wine winecfg
 ```
@@ -27,7 +20,7 @@ A window will pop up. You may consider mapping *Drives* or editing *Desktop Inte
 
 ## Install .NET Framework
 
-- Step 4: Install .NET 4.0 using `winetricks`:
+- Step 3: Install .NET 4.0 using `winetricks`:
 ```sh
 winetricks dotnet40
 ```
@@ -35,28 +28,28 @@ Follow the screen prompts (regular Windows installation process).
 
 ## Install RIT
 
-- Step 5: Download RIT to wine's C:\ Drive
+- Step 4: Download RIT to wine's C:\ Drive
 ```sh
 curl 'https://rit.306w.ca/client/Client.application' -o ~/.wine/drive_c/Client.application
 ```
 
-- Step 6: Open Windows File Explore and go to the C Drive:
+- Step 5: Open Windows File Explore and go to the C Drive:
 ```sh
 wine start "C:\Client.application"
 ```
 
-- Step 7: Follow the installation prompt. When RIT login window appears, it has been successfully installed.
+- Step 6: Follow the installation prompt. When RIT login window appears, it has been successfully installed.
 
 ## Run RIT with a single command
 
-- Step 8: Make an alias to the command above:
+- Step 7: Make an alias to the command above:
 ```sh
-echo "alias RIT='wine start C:Client.application; exit 0'"
+echo "alias RIT='wine start C:Client.application; exit 0'" >> ~/.zshrc
 ```
 
-- Step 9: Quit  `Terminal.app` by using <kbd>&#8984;</kbd>+<kbd>Q</kbd>.
+- Step 8: Quit  `Terminal.app` by using <kbd>&#8984;</kbd>+<kbd>Q</kbd>.
 
-- Step 10: Reopen `Terminal.app` and you can now run the program by only entering `RIT`.
+- Step 9: Reopen `Terminal.app` and you can now run the program by only entering `RIT`.
 
 
 # FAQ
@@ -65,9 +58,9 @@ echo "alias RIT='wine start C:Client.application; exit 0'"
   <summary>Common Error Messages</summary>
   
   - Q: I got the error message `zsh: bad CPU type in executable`  
-     A: Have you installed [Rosetta](./README.md#Part&#32;C:&#32;Install&#32;Rosetta&#32;2&#32;on&#32;M1&#32;Macs)?
+     A: Have you installed [Rosetta](./README.md)?
 
   - Q: I got the error message `zsh: command not found: brew`  
-     A: Have you added homebrew into PATH`? 
+     A: Have you [added brew to PATH](./README.md)? 
      
 </details>
