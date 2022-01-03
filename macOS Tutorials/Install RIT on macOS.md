@@ -58,9 +58,9 @@ echo "alias RIT='wine start C:Client.application; exit 0'" >> ~/.zshrc
   <summary>Common Error Messages</summary>
   
   - Q: I got the error message `zsh: bad CPU type in executable`  
-     A: Have you installed [Rosetta](./README.md)?
+     A: Have you installed [Rosetta](./README.md#part-c-install-rosetta-on-m1-macs)?
 
   - Q: I got the error message `zsh: command not found: brew`  
-     A: Have you [added brew to PATH](./README.md)? 
+     A: Have you [added brew to PATH](./README.md#add-homebrew-to-path)? 
      
 </details>

@@ -30,7 +30,7 @@ Note: The above command will *not* work on Intel Mac, and you don't need Rosetta
 
 ## Part D: Install Homebrew
 
-[Homebrew](brew.sh) is a package management software, similar to Ubuntu's `apt-get`. You will need it to install a few dependencies for softwares used in this course. To install, copy and paste the command below to the terminal:
+[Homebrew](https://brew.sh) is a package management software, similar to Ubuntu's `apt-get`. You will need it to install a few dependencies for softwares used in this course. To install, copy and paste the command below to the terminal:
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
