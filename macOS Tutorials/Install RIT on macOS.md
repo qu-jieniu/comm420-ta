@@ -44,7 +44,7 @@ wine start "C:\Client.application"
 
 - Step 7: Make an alias to the command above:
 ```sh
-echo "alias RIT='wine start C:Client.application; exit 0'" >> ~/.zshrc
+echo "alias RIT='wine start C:\Client.application; exit 0'" >> ~/.zshrc
 ```
 
 - Step 8: Quit  `Terminal.app` by using <kbd>&#8984;</kbd>+<kbd>Q</kbd>.
