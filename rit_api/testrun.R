@@ -1,4 +1,9 @@
-renv::activate("~/Downloads/Smith/TA/COMM420/R/r_env")
+# renv::activate("~/Downloads/Smith/TA/COMM420/R/r_env")
+
+required_packages <- c("plumber", "httr", "jsonlite", "data.table")
+missing_packages <- required_packages[!required_packages %in% rownames(installed.packages())]
+sapply(missing_packages, install.packages)
+sapply(required_packages, require, character.only = TRUE)
 
 pr("api.R") %>% pr_run(port=8000)
 # API documentation - http://127.0.0.1:8000/__docs__/

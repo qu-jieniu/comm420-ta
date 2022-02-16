@@ -1,8 +1,3 @@
-required_packages <- c("plumber", "httr", "jsonlite", "data.table")
-missing_packages <- required_packages[!required_packages %in% rownames(installed.packages())]
-sapply(missing_packages, install.packages)
-sapply(required_packages, require, character.only = TRUE)
-
 api_port <- 8000
 rit_port <- 9999
 rit_key <- 'A7XHB46S'
@@ -37,6 +32,7 @@ function(rit_port=9999, rit_key) {
     response <- GET(url, add_headers('X-API-Key' = rit_key), timeout(3))     
     r <- content(response, as="text", encoding="UTF-8")
     securities <- fromJSON(r)
+    securities_melt <- jsonlite:::simplify(securities, flatten = TRUE)
     # EXCEL PARAMETERS VS API
     # Position -> position
     # PLUNR -> unrealized
