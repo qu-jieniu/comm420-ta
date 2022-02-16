@@ -14,7 +14,7 @@ New Macs after 2020 come with M1 Chips (Apple's ARM64 Architecture). You can eas
 ## Part B: Command-Line Interface on Mac
 
 Part of the course will introduce coding, and basic command-line skills can be helpful. On your keyboard, press <kbd>&#8984;</kbd>+<kbd>SPACE</kbd>, and search for `Terminal.app`.
-- By default, you are on the home user directory `./`
+- By default, you are on the home user directory `~/`
 - To run a command, enter the command, then press <kbd>return</kbd> to execute the command
 - macOS is a Unix-like system, and you can use most linux commands like `cd`, `ls`, `pwd`, `touch`, `vim`, etc
 
