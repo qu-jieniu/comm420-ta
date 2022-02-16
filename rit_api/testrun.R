@@ -1,11 +1,14 @@
 renv::activate("~/Downloads/Smith/TA/COMM420/R/r_env")
 
 pr("api.R") %>% pr_run(port=8000)
+# API documentation - http://127.0.0.1:8000/__docs__/
+
 
 # On a Windows machine, use a ssh tunnel to forward the RIT client traffic
 # ssh -f -N -L 9999:localhost:9999 jn78@jieniuu8.theworkpc.com
 
-# API documentation - http://127.0.0.1:8000/__docs__/
+# Install SSH on windows
+# https://github.com/PowerShell/Win32-OpenSSH/wiki/Install-Win32-OpenSSH
 
 "
 curl --request GET \
