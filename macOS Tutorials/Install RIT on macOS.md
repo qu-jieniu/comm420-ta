@@ -44,11 +44,6 @@ echo "alias RIT='wine start C:\Client.application; exit 0'" >> ~/.zshrc
 
 - Step 9: Reopen `Terminal.app` and you can now run the program by only entering `RIT`.
 
-- Step 10: Open Windows File Explore and go to the C Drive:
-```sh
-wine start "C:\Client.application"
-```
-
 - Step 11: Follow the installation prompt. When RIT login window appears, it has been successfully installed.
 
 
