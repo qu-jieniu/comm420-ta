@@ -26,23 +26,16 @@ winetricks dotnet40
 ```
 Follow the screen prompts (regular Windows installation process).
 
-## Install RIT
+## Download RIT
 
 - Step 4: Download RIT to wine's C:\ Drive
 ```sh
 curl 'https://rit.306w.ca/client/Client.application' -o ~/.wine/drive_c/Client.application
 ```
 
-- Step 5: Open Windows File Explore and go to the C Drive:
-```sh
-wine start "C:\Client.application"
-```
+## Install and run RIT with a single command
 
-- Step 6: Follow the installation prompt. When RIT login window appears, it has been successfully installed.
-
-## Run RIT with a single command
-
-- Step 7: Make an alias to the command above:
+- Step 5: Make an alias to the command above:
 ```sh
 echo "alias RIT='wine start C:\Client.application; exit 0'" >> ~/.zshrc
 ```
@@ -50,6 +43,13 @@ echo "alias RIT='wine start C:\Client.application; exit 0'" >> ~/.zshrc
 - Step 8: Quit  `Terminal.app` by using <kbd>&#8984;</kbd>+<kbd>Q</kbd>.
 
 - Step 9: Reopen `Terminal.app` and you can now run the program by only entering `RIT`.
+
+- Step 10: Open Windows File Explore and go to the C Drive:
+```sh
+wine start "C:\Client.application"
+```
+
+- Step 11: Follow the installation prompt. When RIT login window appears, it has been successfully installed.
 
 
 # FAQ
