@@ -42,10 +42,14 @@ echo "alias RIT='wine start C:\Client.application; exit 0'" >> ~/.zshrc
 
 - Step 8: Quit  `Terminal.app` by using <kbd>&#8984;</kbd>+<kbd>Q</kbd>.
 
-- Step 9: Reopen `Terminal.app` and you can now run the program by only entering `RIT`.
+- Step 9: Reopen `Terminal.app` and you can now run the program by only entering 
+```
+RIT
+```
 
 - Step 11: Follow the installation prompt. When RIT login window appears, it has been successfully installed.
 
+<img src="../assets/img/RITWindow.png" width="1000">
 
 # FAQ
 
