@@ -30,7 +30,7 @@ Follow the screen prompts (regular Windows installation process).
 
 - Step 4: Download RIT to wine's C:\ Drive
 ```sh
-curl 'https://rit.306w.ca/client/Client.application' -o ~/.wine/drive_c/Client.application
+curl 'http://rit.306w.ca/client/Client.application' -o ~/.wine/drive_c/Client.application
 ```
 
 ## Install and run RIT with a single command
