@@ -1,0 +1,29 @@
+Have students to register Azure using their QU Email:
+https://azure.microsoft.com/en-us/free/
+
+Free US$100 Credit
+Each VM costs about US$30/month
+
+Virtual machines -> Create
+
+Give VM a name
+
+Image -> See all images -> Search for Windows 365 ->
+Select:
+	Windows 365 Enterprise – Cloud PC
+	Plan: Windows 11 Enterprise Cloud PC + Microsoft 365 Apps
+
+Size -> Standard_B2s (2vCPUs, 4GiB memory)
+
+Choose username and password
+
+Check box in licensing, then review + create
+
+******
+
+Mac - download Microsoft Remote Desktop from the App Store
+
+******
+
+Office 365 - Activate using Queen's email
+
