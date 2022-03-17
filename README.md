@@ -6,3 +6,4 @@ TA:
 - Jie Niu
 - Email: [jie.niu@queensu.ca](mailto:jie.niu@queensu.ca)
 - Phone: 613-533-6000; ext. 74450
+- Office: Goodes 274
