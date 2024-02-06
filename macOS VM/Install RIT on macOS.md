@@ -20,9 +20,9 @@ A window will pop up. You may consider mapping *Drives* or editing *Desktop Inte
 
 ## Install .NET Framework
 
-- Step 3: Install .NET 4.0 using `winetricks`:
+- Step 3: Install .NET 4.8 using `winetricks`:
 ```sh
-winetricks dotnet40
+winetricks dotnet48
 ```
 Follow the screen prompts (regular Windows installation process).
 
