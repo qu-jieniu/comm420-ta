@@ -6,18 +6,19 @@ Each VM costs about US$30/month
 
 Virtual machines -> Create
 
-Give VM a name
+Give VM a name (e.g. comm420)
 
-Image -> See all images -> Search for Windows 365 ->
-Select:
-	Windows 365 Enterprise – Cloud PC
-	Plan: Windows 11 Enterprise Cloud PC + Microsoft 365 Apps
+Image -> Select Windows 10 Pro 22H2
 
-Size -> Standard_B2s (2vCPUs, 4GiB memory)
+Size -> select Standard_B2s - 2 vcpus, 4GiB memory
 
 Choose username and password
 
+Select inbound ports -> both SSH(22) and RDP(3389)
+
 Check box in licensing, then review + create
+
+Everything else can be kept default, or customize if needed
 
 ******
 
